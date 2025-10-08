@@ -30,38 +30,39 @@
         <li><strong>Committed:</strong> <p>Perubahan telah disimpan secara permanen di database Git lokal (menggunakan <code>git commit</code>).</p></li>
     </ul>
 
-    <h2>Perintah Git</h2>
-    <div class="git-commands">
-    <div class="commands">
-        <code>git init</code>: Membuat repositori Git baru di direktori saat ini.
-    </div>
-    <div class="commands">
-        <code>git clone [url]</code>: Menggandakan repositori dari URL yang diberikan ke direktori lokal.
-    </div>
-    <div class="commands">
-        <code>git add [file]</code>: Menambahkan file tertentu ke staging area untuk commit berikutnya.
-    </div>
-    <div class="commands">
-        <code>git commit -m "[pesan]"</code>: Menyimpan perubahan yang telah ditambahkan ke staging area dengan pesan deskriptif.
-    </div>
-    <div class="commands">
-        <code>git status</code>: Menampilkan status file di direktori kerja dan staging area.
-    </div>
-    <div class="commands">
-        <code>git push [alias] [branch]</code>: Mengirim perubahan yang telah di-commit ke repositori jarak jauh.
-    </div>
-    <div class="commands">
-        <code>git pull [alias] [branch]</code>: Mengambil dan menggabungkan perubahan dari repositori jarak jauh ke cabang lokal.
-    </div>
-    <div class="commands">
-        <code>git branch</code>: Menampilkan daftar cabang yang ada di repositori.
-    </div>
-    <div class="commands">
-        <code>git checkout [branch]</code>: Berpindah ke cabang yang ditentukan.
-    </div>
-    <div class="commands">
-        <code>git merge [branch]</code>: Menggabungkan cabang yang ditentukan ke cabang saat ini.
-    </div>
+    <h3>Perintah Git</h3>
+
+<div class="git-commands">
+  <div class="command">
+    <code>git init</code>
+    <p>Membuat repository Git baru di direktori lokal.</p>
+  </div>
+
+  <div class="command">
+    <code>git add &lt;nama_file&gt;</code>
+    <p>Menandai perubahan untuk dimasukkan ke commit (staging area).</p>
+  </div>
+
+  <div class="command">
+    <code>git commit -m "pesan"</code>
+    <p>Menyimpan snapshot perubahan ke database Git dengan pesan deskriptif.</p>
+  </div>
+
+  <div class="command">
+    <code>git status</code>
+    <p>Menampilkan status file (diubah, staged, untracked, dll).</p>
+  </div>
+
+  <div class="command">
+    <code>git push</code>
+    <p>Mengunggah commit dari repository lokal ke remote (misalnya GitHub).</p>
+  </div>
+
+  <div class="command">
+    <code>git clone &lt;url&gt;</code>
+    <p>Menyalin repository dari remote ke lokal.</p>
+  </div>
+</div>
 <footer><p>© 2025 | Misar</p></footer>
 </body>
 </html>
