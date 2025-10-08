@@ -60,39 +60,46 @@ ul p {
 }
 
 .git-commands {
-  max-width: 850px;
-  margin: 20px auto;
+  max-width: 1000px;
+  margin: 40px auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
 }
 
 .command {
   background-color: #ffffff;
-  border-left: 5px solid #0b5394;
-  padding: 15px 18px;
-  border-radius: 10px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
-  transition: all 0.25s ease;
+  border-left: 6px solid #0b5394;
+  padding: 16px 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .command:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
 }
 
 .command code {
+  display: block;
+  font-size: 15px;
   font-weight: 600;
   color: #0b5394;
-  font-size: 17px;
-  display: block;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
+  background-color: #e8f0fe;
+  padding: 6px 10px;
+  border-radius: 6px;
+  width: fit-content;
 }
 
 .command p {
-  margin: 0;
+  font-size: 14px;
   color: #444;
-  font-size: 15px;
+  margin: 0;
+  text-align: justify;
+  line-height: 1.5;
 }
 
 footer {
