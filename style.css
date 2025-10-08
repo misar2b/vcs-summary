@@ -2,46 +2,44 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Times New Roman", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  background: #f4f6f9;
+  background-color: #f4f6f9;
   color: #333;
   line-height: 1.7;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 
 h1 {
   background-color: #0b5394;
-  color: white;
+  color: #fff;
   text-align: center;
-  padding: 1.5rem 0;
-  font-size: 2rem;
-  letter-spacing: 1px;
+  padding: 25px 10px;
+  font-size: 32px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
 p {
-  margin: 1rem auto;
   max-width: 850px;
+  margin: 15px auto;
+  font-size: 16px;
   text-align: justify;
-  font-size: 1rem;
 }
 
-h2 {
+h2, h3 {
   color: #0b5394;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
 
 ul {
   max-width: 850px;
-  margin: 0 auto 3rem auto;
+  margin: 0 auto 30px auto;
   background: #fff;
-  padding: 1.5rem 2rem;
+  padding: 25px 35px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   list-style: none;
@@ -50,16 +48,51 @@ ul {
 ul li {
   color: #0b5394;
   font-weight: 600;
-  margin-top: 1rem;
+  margin-top: 12px;
 }
-
 
 ul p {
   font-weight: 400;
-  margin-top: 0.5rem;
-  margin-left: 1rem;
+  margin-top: 5px;
+  margin-left: 12px;
   border-left: 3px solid #0b5394;
-  padding-left: 0.8rem;
+  padding-left: 10px;
+}
+
+.git-commands {
+  max-width: 850px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 15px;
+}
+
+.command {
+  background-color: #ffffff;
+  border-left: 5px solid #0b5394;
+  padding: 15px 18px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.25s ease;
+}
+
+.command:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.command code {
+  font-weight: 600;
+  color: #0b5394;
+  font-size: 17px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.command p {
+  margin: 0;
+  color: #444;
+  font-size: 15px;
 }
 
 footer {
@@ -68,23 +101,23 @@ footer {
   left: 0;
   width: 100%;
   background-color: #0b5394;
-  color: #fff;
+  color: white;
   text-align: center;
-  padding: 0.8rem 0;
-  font-size: 0.9rem;
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+  padding: 10px 0;
+  font-size: 14px;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 1.6rem;
+    font-size: 24px;
   }
 
-  h2 {
-    font-size: 1.2rem;
+  .git-commands {
+    grid-template-columns: 1fr;
   }
 
-  p, ul {
-    padding: 1rem;
+  ul, p {
+    padding: 10px;
   }
 }
