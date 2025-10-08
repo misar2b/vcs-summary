@@ -19,6 +19,48 @@
         <p>Local VCS menyimpan semua versi file di komputer pengguna. Meskipun sederhana, model ini tidak mendukung kolaborasi dengan baik.</p>
         <p>Version Control System membantu menjaga integritas dan mempermudah kolaborasi antar pengguna.</p>
     </ul>
-<footer><p>© 2025 Summary VCS by Misar</p></footer>
+    
+    <h2>Git</h2>
+    <p>Git adalah sistem kontrol versi terdistribusi yang dirancang untuk kecepatan dan efisiensi. Ini memungkinkan banyak pengembang untuk bekerja pada proyek yang sama tanpa mengganggu satu sama lain. Git menyimpan riwayat perubahan secara lokal di setiap salinan repositori, sehingga memungkinkan pengembang untuk bekerja secara offline dan menggabungkan perubahan dengan mudah saat terhubung kembali.</p>
+
+    <h2>Tiga Keadaan Git</h2>
+    <ul>
+        <li><strong>Modified:</strong> File telah diubah, tapi belum disiapkan untuk commit.</li>
+        <li><strong>Staged:</strong> File sudah ditandai untuk dimasukkan ke dalam commit (menggunakan <code>git add</code>).</li>
+        <li><strong>Committed:</strong> Perubahan telah disimpan secara permanen di database Git lokal (menggunakan <code>git commit</code>).</li>
+    </ul>
+
+    <h2>Perintah Git</h2>
+    <div class="commands">
+        <code>git init</code>: Membuat repositori Git baru di direktori saat ini.
+    </div>
+    <div class="commands">
+        <code>git clone [url]</code>: Menggandakan repositori dari URL yang diberikan ke direktori lokal.
+    </div>
+    <div class="commands">
+        <code>git add [file]</code>: Menambahkan file tertentu ke staging area untuk commit berikutnya.
+    </div>
+    <div class="commands">
+        <code>git commit -m "[pesan]"</code>: Menyimpan perubahan yang telah ditambahkan ke staging area dengan pesan deskriptif.
+    </div>
+    <div class="commands">
+        <code>git status</code>: Menampilkan status file di direktori kerja dan staging area.
+    </div>
+    <div class="commands">
+        <code>git push [alias] [branch]</code>: Mengirim perubahan yang telah di-commit ke repositori jarak jauh.
+    </div>
+    <div class="commands">
+        <code>git pull [alias] [branch]</code>: Mengambil dan menggabungkan perubahan dari repositori jarak jauh ke cabang lokal.
+    </div>
+    <div class="commands">
+        <code>git branch</code>: Menampilkan daftar cabang yang ada di repositori.
+    </div>
+    <div class="commands">
+        <code>git checkout [branch]</code>: Berpindah ke cabang yang ditentukan.
+    </div>
+    <div class="commands">
+        <code>git merge [branch]</code>: Menggabungkan cabang yang ditentukan ke cabang saat ini.
+    </div>
+<footer><p>© 2025 | Misar</p></footer>
 </body>
 </html>
