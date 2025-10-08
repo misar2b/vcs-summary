@@ -1,4 +1,4 @@
-/* ====== RESET DAN DASAR ====== */
+/*  RESET DAN DASAR  */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   font-family: "Times New Roman", serif;
 }
 
-/* ====== BODY ====== */
+/* body */
 body {
   background: #f4f6f9;
   color: #333;
@@ -14,7 +14,7 @@ body {
   padding-bottom: 100px;
 }
 
-/* ====== HEADER UTAMA ====== */
+/* header utama */
 h1 {
   background-color: #0b5394;
   color: white;
@@ -25,7 +25,7 @@ h1 {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* ====== KONTEN ====== */
+/* konten */
 p {
   margin: 1rem auto;
   max-width: 850px;
@@ -33,7 +33,7 @@ p {
   font-size: 1rem;
 }
 
-/* ====== SUBJUDUL ====== */
+/* subjudul */
 h2 {
   color: #0b5394;
   text-align: center;
@@ -42,7 +42,7 @@ h2 {
   font-size: 1.5rem;
 }
 
-/* ====== LIST SECTION ====== */
+/* list section */
 ul {
   max-width: 850px;
   margin: 0 auto 3rem auto;
@@ -69,7 +69,7 @@ ul p {
   padding-left: 0.8rem;
 }
 
-/* ====== FOOTER ====== */
+/* footer */
 footer {
   position: fixed;
   bottom: 0;
@@ -83,7 +83,7 @@ footer {
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* ====== RESPONSIF ====== */
+/* responsif */
 @media (max-width: 600px) {
   h1 {
     font-size: 1.6rem;
