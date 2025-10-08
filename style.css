@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", serif;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  background-color: #0b5394;
+  background-color: #b06052;
   color: #fff;
   text-align: center;
   padding: 25px 10px;
@@ -29,7 +29,7 @@ p {
 }
 
 h2, h3 {
-  color: #0b5394;
+  color: #b06052;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -46,7 +46,7 @@ ul {
 }
 
 ul li {
-  color: #020202;
+  color: #333;
   font-weight: 600;
   margin-top: 12px;
 }
