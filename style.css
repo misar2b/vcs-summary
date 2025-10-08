@@ -1,4 +1,3 @@
-/*  RESET DAN DASAR  */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +5,6 @@
   font-family: "Times New Roman", serif;
 }
 
-/* body */
 body {
   background: #f4f6f9;
   color: #333;
@@ -14,7 +12,6 @@ body {
   padding-bottom: 100px;
 }
 
-/* header utama */
 h1 {
   background-color: #0b5394;
   color: white;
@@ -25,7 +22,6 @@ h1 {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* konten */
 p {
   margin: 1rem auto;
   max-width: 850px;
@@ -33,7 +29,6 @@ p {
   font-size: 1rem;
 }
 
-/* subjudul */
 h2 {
   color: #0b5394;
   text-align: center;
@@ -42,7 +37,6 @@ h2 {
   font-size: 1.5rem;
 }
 
-/* list section */
 ul {
   max-width: 850px;
   margin: 0 auto 3rem auto;
@@ -53,14 +47,13 @@ ul {
   list-style: none;
 }
 
-/* Tiap item list */
 ul li {
   color: #0b5394;
   font-weight: 600;
   margin-top: 1rem;
 }
 
-/* Paragraf di dalam list */
+
 ul p {
   font-weight: 400;
   margin-top: 0.5rem;
@@ -69,7 +62,6 @@ ul p {
   padding-left: 0.8rem;
 }
 
-/* footer */
 footer {
   position: fixed;
   bottom: 0;
@@ -83,7 +75,6 @@ footer {
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* responsif */
 @media (max-width: 600px) {
   h1 {
     font-size: 1.6rem;
