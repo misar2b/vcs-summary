@@ -1,0 +1,99 @@
+/* ====== RESET DAN DASAR ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ====== BODY ====== */
+body {
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.7;
+  padding-bottom: 100px;
+}
+
+/* ====== HEADER UTAMA ====== */
+h1 {
+  background-color: #0b5394;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ====== KONTEN ====== */
+p {
+  margin: 1rem auto;
+  max-width: 850px;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+/* ====== SUBJUDUL ====== */
+h2 {
+  color: #0b5394;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+/* ====== LIST SECTION ====== */
+ul {
+  max-width: 850px;
+  margin: 0 auto 3rem auto;
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  list-style: none;
+}
+
+/* Tiap item list */
+ul li {
+  color: #0b5394;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+/* Paragraf di dalam list */
+ul p {
+  font-weight: 400;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  border-left: 3px solid #0b5394;
+  padding-left: 0.8rem;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0b5394;
+  color: #fff;
+  text-align: center;
+  padding: 0.8rem 0;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ====== RESPONSIF ====== */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p, ul {
+    padding: 1rem;
+  }
+}
